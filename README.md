@@ -68,3 +68,54 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Katha Sangam - Project Documentation
+Katha Sangam 🎭
+
+An AI-powered cultural storytelling platform that brings mythology, folklore, and traditional stories to life using text, images, audio, and video. This project is built with React.js (frontend) and Express.js (backend).
+🚀 Features
+• Story generation using AI (Gemini API).
+• Text-to-Speech narration.
+• AI-based image and video generation.
+• Smooth navigation using React Router.
+• Modern UI with Material-UI and React Icons.
+📂 Project Setup
+
+1. 1. Create React Project
+      npx create-react-app katha-sangam
+2. 2. Go Inside Project Folder
+      cd katha-sangam
+3. 3. Install React Router
+      npm install react-router-dom
+4. 4. Install Material UI
+      npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
+5. 5. Install React Icons
+      npm install react-icons
+6. Example import
+   import { FaBookOpen, FaImage, FaVolumeUp, FaVideo } from "react-icons/fa";
+7. 6. Start Development Server
+      npm start
+      ⚙️ Backend Setup (Gemini API)
+8. 1. Go to Backend Folder
+      cd backend
+9. 2. Initialize Node.js Project
+      npm init -y
+10. 3. Install Dependencies
+       npm install express cors dotenv node-fetch
+11. 4. Run Server
+       node server.js
+       🖥️ Available Scripts (Frontend)
+       • npm start - Runs the app in development mode (http://localhost:3000).
+       • npm test - Launches the test runner in interactive watch mode.
+       • npm run build - Builds the app for production to the build folder.
+       • npm run eject - Ejects configuration files. (⚠️ One-way operation)
+       📖 Learn More
+       • React Documentation: https://reactjs.org/
+       • Create React App Documentation: https://facebook.github.io/create-react-app/docs/getting-started
+       • Material-UI Docs: https://mui.com/
+       • React Icons: https://react-icons.github.io/react-icons/
+       🌐 Deployment
+       Follow Deployment Guide: https://facebook.github.io/create-react-app/docs/deployment
+       📝 Notes
+       • Ensure backend is running before making API calls from frontend.
+       • Add your API keys in `.env` file inside backend.
+       • Start frontend and backend separately.
